@@ -1,0 +1,69 @@
+.profile {
+  width: 350px;
+  height: 375px;
+  padding-top: 90px;
+  border-radius: 15px;
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  
+  &__background{
+    position: absolute;
+    left: auto;
+    top: 0px;
+    border-radius: 15px;
+  }
+  
+  &__picture {
+    left: auto;
+    top: auto;
+    z-index: 1;
+    display: block;
+    width: 96px;
+    height: 96px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  &__identity {
+    padding-top: 30px;
+    padding-bottom: 14px;
+    font-size: $font-md;
+    text-align: center;
+  }
+  
+  &__name, &__stat-num {
+    font-weight: $font-bold;
+    font-size: $font-md;
+    color: $vddBlue;
+  }
+  
+  &__age {
+    font-weight: $font-norm;
+  }
+  
+  &__city {
+    font-size: $font-sm;
+    padding-bottom: 26px;
+    text-align: center;
+  }
+  
+  &__stats {
+    padding: 30px 47px 25px 47px;
+    border-top: 1px solid $darkGray;
+  }
+  
+  &__stat-item {
+    text-align: center;
+  }
+  
+  &__stat-lab {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-top: 8px;
+  }
+  
+}
